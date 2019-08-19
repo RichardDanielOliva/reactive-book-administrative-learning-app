@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+ <tr data-th-each="book : ${books}">
+                                
+ 	<td>[[${book.title}]]</td>
+  	<td>[[${book.origin}]]</td></br>
+                         
+ </tr>
+</body>
+</html>
